@@ -7,7 +7,7 @@ import useGetArticle from '../hook/useGetArticle';
 
 
 function ContainerPost() {
-  const API = process.env.REACT_APP_API;
+  const API = "https://newsapi.org/v2/top-headlines?country=us&apiKey=ad49fd8d42404aeab57751be4587f848";
 
   const posts = useGetArticle(API);
   
