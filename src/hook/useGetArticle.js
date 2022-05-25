@@ -1,16 +1,12 @@
 // import axios from 'axios'
-import React,{useEffect,useState} from 'react';
+import {useEffect,useState} from 'react';
 
 
 
 const useGetArticle = (API) =>{
     const [post, setPost] = useState([]);
 
-    useEffect(()=>{
-        fetchApi()
-    },[]);
-
-    const fetchApi= async ()=>{
+    const dataApi= async ()=>{
         try {
             const response = await fetch(API);
             const noticia = await response.json()
@@ -19,8 +15,14 @@ const useGetArticle = (API) =>{
         } catch (error) {
             console.log("no hubo conexion", error);
         }
-        
     }
+    
+
+    useEffect(()=>{
+        dataApi()
+    },[]);
+
+    
 
     return post;
 

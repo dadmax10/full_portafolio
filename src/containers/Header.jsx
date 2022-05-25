@@ -1,5 +1,4 @@
 import React,{useState} from 'react'
-import Menu from '../components/Menu'
 import RedSocial from '../components/RedSocial'
 import "../styles/header.scss"
 
