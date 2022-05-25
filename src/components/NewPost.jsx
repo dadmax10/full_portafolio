@@ -5,7 +5,7 @@ import { ContanerPost, ImgPost,LinkPost,ModalPost, TitlePost } from "../style/Ne
 function Newpost({post}) {
   return (
     <ContanerPost>
-      <ImgPost src={post.urlToImage}/>
+      <ImgPost src={post.image}/>
       <ModalPost>
         <TitlePost>{post.title}</TitlePost>
         <LinkPost href={post.url}>Ver Mas</LinkPost>
