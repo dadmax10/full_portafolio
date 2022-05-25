@@ -18,12 +18,11 @@ function ContainerPost() {
         <hr className="hr-article" />
         <div className="containerPosts">
           {
-            posts.map(noticia => (
+            posts.map(noticia =>(
               <NewPost post = {noticia} key={noticia.url}/>
             ))
           }
         </div>
-        
     </div>
   )
 }
