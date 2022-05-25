@@ -14,7 +14,7 @@ const useGetArticle = (API) =>{
                     return response.json();
                 })
                 .then(function(data){
-                    return data.articles
+                    return data.articles;
                 })
                 .then(function(dataNoticia){
                     setPost(dataNoticia)
