@@ -20,7 +20,7 @@ const useGetArticle = (API) =>{
 
     useEffect(()=>{
         dataApi()
-    },[]);
+    });
 
     
 
