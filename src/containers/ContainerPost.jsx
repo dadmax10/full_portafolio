@@ -7,7 +7,7 @@ import useGetArticle from '../hook/useGetArticle';
 
 
 function ContainerPost() {
-  const API = "https://gnews.io/api/v4/search?q=example&token=d513813bffd4a3e0331c6836bfddbde5";
+  const API = "https://newsapi.org/v2/top-headlines?country=us&apiKey=ad49fd8d42404aeab57751be4587f848";
 
   const posts = useGetArticle(API);
   
