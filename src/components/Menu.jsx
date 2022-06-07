@@ -34,8 +34,6 @@ function Menu() {
 
                 <MenuUl modal={modalMovil}>
                   <MenuItem onClick={handleModal}>
-                  </MenuItem>
-                  <MenuItem onClick={handleModal}>
                     <MenuItemLink href="/about"><FaHome/>Acerca</MenuItemLink>
                   </MenuItem>
                   <MenuItem onClick={handleModal}>
