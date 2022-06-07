@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 // import RedSocial from '../components/RedSocial'
 import "../styles/header.scss"
+import Button from "../components/Button"
 
 
 //import img
@@ -55,10 +56,12 @@ function Header() {
               <span className="textProfile">p</span>
               <span className="textProfile">e</span>
               <span className="textProfile">r</span>
+              <br /><br /><br />
+              {Button("/about", "Contact Me!!")}
             </div>
           </div>
         </div>
-  
+        
     </header>
   )
 }

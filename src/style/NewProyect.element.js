@@ -4,6 +4,7 @@ export const ContainerProyectItems = styled.div`
     width:100%;
     display :flex;
     flex-direction : row;
+    flex-wrap:wrap;
 `
 export const ProyectCont = styled.div`
     width:20%;
@@ -16,6 +17,11 @@ export const ProyectCont = styled.div`
     opacity:0.6;
     &:hover{
         opacity:1;
+    }
+
+    @media screen and (max-width:968px){
+        width : 100%;
+        height:50%;
     }
 `
 

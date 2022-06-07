@@ -8,6 +8,7 @@ export const NavabarContainer = styled.div`
     top : 0;
     z-index : 99;
     background-color : #181818;
+    z-index:99999;
 `;
 
 export const NavbarWrapper = styled.div`
@@ -43,7 +44,7 @@ export const MenuUl = styled.ul`
         left:${({modal})=> modal ? 0 : "-100%"};
         flex-direction:column;
         transition:0.5s all ease-in;
-        background:#29d;
+        background:#181818;
     }
 `;
 

@@ -7,6 +7,9 @@ export const ContentDataBlog = styled.div`
     padding:2em;
     box-shadow:2px 2px 10px 0px #000;
     border-top: 10px solid ${props => props.primary};
+    @media screen and (max-width:968px){
+        width : 100%;
+    }
 `;
 
 

@@ -4,13 +4,16 @@ export const ContainerNewBlogs = styled.div`
     width:100%;
     display:flex;
     flex-direction :row;
-    
+    flex-wrap:wrap;
     padding:0.5em 2em;
 `;
 
 export const ContainerRegisterBlogs = styled.div`
     width:20%;
     padding:2em;
+    @media screen and (max-width:968px){
+        width : 100%;
+    }
 `
 
 export const ContainerBlogsInfo = styled.div`
@@ -20,4 +23,7 @@ export const ContainerBlogsInfo = styled.div`
     justify-content:center;
     flex-wrap:wrap;
     align-items :center;
+    @media screen and (max-width:968px){
+        width : 100%;
+    }
 `

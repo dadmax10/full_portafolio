@@ -24,6 +24,11 @@ export const ContainerTextDiseño = styled.div`
     position:relative;
     left:55%;
     border-radius:3em;
+    @media screen and (max-width:968px){
+        left:0;
+        width:100%;
+        margin:auto;
+    }
 `
 
 export const TitleDiseño = styled.h2`
@@ -46,12 +51,25 @@ export const ContainerImgDiseño = styled.div`
     left:15%;
     transform: rotate(0.9turn);
     border-radius:10em;
+    @media screen and (max-width:968px){
+        transform:rotate(1turn);
+        border-radius:0px;
+        width:50%;
+        height:60%;
+        left:0px;
+        top:40%;
+        
+    }
 `
 
 export const ImgDiseño = styled.img`
     width:100%;
     height:100%;
     border-radius:10em;
+    @media screen and (max-width:968px){
+        border-radius:0px;
+        
+    }
 
 `
 

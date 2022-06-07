@@ -6,11 +6,15 @@ export const ContainerTech = styled.div`
     display:flex;
     flex-direction:row;
     position:relative;
+    flex-wrap:wrap;
 `
 
 export const ContainerInfoPasion = styled.div`
     width:50%;
     padding:1em;
+    @media screen and (max-width:968px){
+        width : 100%;
+    }
 `
 export const TitlePasion = styled.h2`
     text-align :justify;
@@ -28,6 +32,9 @@ export const DescPasion = styled.p`
 export const ContainerAbilityPasion = styled.div`
     width:50%;
     padding:3em;
+    @media screen and (max-width:968px){
+        width : 100%;
+    }
 `
 
 
