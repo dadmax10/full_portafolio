@@ -25,6 +25,7 @@ export const TextProyect = styled.h1`
 export const DescProyect = styled.p`
     color:#fff;
     font-size:1.3em;
+    
 `
 
 export const LinkProyectText = styled.a`

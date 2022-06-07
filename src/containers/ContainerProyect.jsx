@@ -1,7 +1,7 @@
 import React from 'react'
 import NewProyect from '../components/NewProyect'
 import {ContainerNewProyect, TextProyect, DescProyect, LinkProyectText, TextProyectOculto} from "../style/ContainerProyecto.element"
-
+import Button from '../components/Button'
 
 
 function ContainerProyect() {
@@ -10,7 +10,8 @@ function ContainerProyect() {
         <ContainerNewProyect>
             <TextProyectOculto>Proyectos</TextProyectOculto>
             <TextProyect>My Proyectos</TextProyect>
-            <DescProyect>Galeria de algunos de mis proyectos de desarrollo web , Diseño web o Graficos, Fotografias entre muchos mas si quieres conocer mas de estos proyectos  <LinkProyectText href='#'>¡Haz click aqui!</LinkProyectText> </DescProyect>
+            <DescProyect>Galeria de algunos de mis proyectos de desarrollo web , Diseño web o Graficos, Fotografias entre muchos mas si quieres conocer mas de estos proyectos  <LinkProyectText href='/proyect'>¡Haz click aqui!</LinkProyectText> </DescProyect>
+            {Button("/proyect", "Todos los Proyectos!")}
             <NewProyect/>
         </ContainerNewProyect>
         

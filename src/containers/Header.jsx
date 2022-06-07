@@ -56,7 +56,7 @@ function Header() {
               <span className="textProfile">p</span>
               <span className="textProfile">e</span>
               <span className="textProfile">r</span>
-              <br /><br /><br />
+              <br />
               {Button("/about", "Contact Me!!")}
             </div>
           </div>
