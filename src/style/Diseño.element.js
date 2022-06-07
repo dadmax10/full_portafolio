@@ -58,7 +58,14 @@ export const ContainerImgDiseño = styled.div`
         height:60%;
         left:0px;
         top:40%;
-        
+    }
+    @media screen and (max-width:600px){
+        transform:rotate(1turn);
+        border-radius:0px;
+        width:100%;
+        height:60%;
+        left:0px;
+        top:40%;
     }
 `
 
