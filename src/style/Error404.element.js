@@ -25,7 +25,7 @@ export const TextError = styled.h1`
 
 export const ContainerImgError = styled.div`
     width:60%;
-    filter:invert(70%);
+    filter: opacity(0.8) drop-shadow(0 0 0 #08fdd8);
 `
 
 export const ImgError = styled.img`
@@ -37,10 +37,11 @@ export const LInkError = styled.a`
     text-decoration:none;
     padding:0.5em;
     display:block;
-    border:1px solid #29d;
+    border:1px solid #08fdd8;
     margin:1em 0px;
     &:hover{
-        background:#29d;
+        background:#08fdd8;
         transition:500ms;
+        color:#000;
     }
 `

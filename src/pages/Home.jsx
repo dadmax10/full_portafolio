@@ -1,5 +1,8 @@
 import React from 'react'
 import Header from '../containers/Header';
+import ContainerProyect from '../containers/ContainerProyect'
+import ContainerPasionTech from '../containers/ContainerPasionTech';
+import ContainerHeaderBlogs from '../containers/ContainerHeaderBlogs';
 // import ContainerPost from '../containers/ContainerPost';
 
 function Home() {
@@ -7,6 +10,9 @@ function Home() {
     <div>
         <Header/>
         {/* <ContainerPost/> */}
+        <ContainerProyect/>
+        <ContainerPasionTech/>
+        <ContainerHeaderBlogs/>
     </div>
   )
 }

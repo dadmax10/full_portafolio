@@ -1,12 +1,12 @@
 import React,{useState} from 'react'
-import RedSocial from '../components/RedSocial'
+// import RedSocial from '../components/RedSocial'
 import "../styles/header.scss"
 
 
 //import img
-import bg_profile from "../assets/image/tecnologia.jpg"
 import profile from "../assets/image/andres.jpg"
 import profile2 from "../assets/image/andres2.jpg"
+
 
 
 function Header() {
@@ -24,19 +24,41 @@ function Header() {
   return (
     <header>
         <div className="content-info">
-          <img className="img-profile"  src={bg_profile} alt="profile"/>
           <div className="content-profile">
             <img onMouseEnter={handleImgChangeEnter} onMouseOut={handleImgChangeOut} src={imgChange} className="profile-img-person" alt="andres" />
             <div className="content-title">
-              <h1>Andres Narvaez</h1>
-              <p>Programador y Diseñador Web - conocimiento en diseño grafico y produccion audiovisual #web #react #javaScript #next </p>
-              <RedSocial/>
+              <span className="textProfile">H</span>
+              <span className="textProfile">i</span>
+              <span className="textProfile">,</span>
+              <br />
+              <span className="textProfile">I</span>
+              <span className="textProfile">`</span>
+              <span className="textProfile">M</span>
+              <span className="textProfile textMargen"></span>
+              <span className="textProfile">A</span>
+              <span className="textProfile">nd</span>
+              <span className="textProfile">r</span>
+              <span className="textProfile ">e</span>
+              <span className="textProfile ">s</span>
+              <span className="textProfile ">,</span>
+              <br />
+              <span className="textProfile">W</span>
+              <span className="textProfile">e</span>
+              <span className="textProfile">b</span>
+              <span className="textProfile textMargen"></span>
+              <span className="textProfile">D</span>
+              <span className="textProfile">e</span>
+              <span className="textProfile">v</span>
+              <span className="textProfile">e</span>
+              <span className="textProfile">l</span>
+              <span className="textProfile">o</span>
+              <span className="textProfile">p</span>
+              <span className="textProfile">e</span>
+              <span className="textProfile">r</span>
             </div>
-            
           </div>
         </div>
-        <hr />
-        
+  
     </header>
   )
 }

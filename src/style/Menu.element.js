@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+
 
 export const NavabarContainer = styled.div`
     width : 100%;
@@ -6,7 +7,7 @@ export const NavabarContainer = styled.div`
     position : sticky;
     top : 0;
     z-index : 99;
-    background-color : #29d;
+    background-color : #181818;
 `;
 
 export const NavbarWrapper = styled.div`
@@ -56,7 +57,7 @@ export const MenuItem = styled.li`
     font-family:"Oswald";
     font-weight: 400;
     &:hover{
-        background:#343267;
+        background:#08fdd8;
         border-bottom: 0.3rem solid #fff;
         transition:0.4s ease-in;
     }
@@ -75,7 +76,7 @@ export const MenuItemLink = styled.a`
     text-decoration : none;
     color:#aaa;
     &:hover{
-        color:#fff;
+        color:#000;
         transition:0.4s ;
     }
 `;

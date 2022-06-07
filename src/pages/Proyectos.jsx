@@ -1,19 +1,21 @@
 import React from 'react'
-import NewArticle from '../components/NewArticle'
+// import NewArticle from '../components/NewArticle'
+
+import NewProyect from "../components/NewProyect"
 
 import { ContainerPostAll, HrTitlePost, TitlePostAll } from "../style/Article.element.js"
 
-function Articles() {
+function Proyect() {
   return (
     <>
-        <TitlePostAll>TODOS LOS ARTICULOS</TitlePostAll>
+        <TitlePostAll>TODOS LOS PROYECTOS</TitlePostAll>
         <HrTitlePost/>
         <ContainerPostAll>
-          <NewArticle/>
+          <NewProyect/>
         </ContainerPostAll>
     </>
     
   )
 }
 
-export default Articles
+export default Proyect

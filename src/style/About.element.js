@@ -45,7 +45,7 @@ export const PressInfo = styled.div`
 `;
 
 export const HrLinea = styled.hr`
-    box-shadow: 0px 0px 15px 0px #29d ;
+    box-shadow: 0px 0px 15px 0px #08fdd0 ;
     
 `;
 

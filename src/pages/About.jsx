@@ -1,6 +1,6 @@
 import React from 'react'
 import {ContentInfoAbout, HrAbout, TextPort,PressHeader,PressInfo, ImgHeader, HrLinea} from '../style/About.element'
-
+import Redsocial from "../components/RedSocial"
 // importando imagenes
 import imgPress from "../assets/image/andres.jpg"
 
@@ -14,6 +14,8 @@ function About() {
             <ImgHeader src={imgPress}/>
             <h2>@AndresTech</h2>
             <p>Programador y Diseñador Web - conocimiento en diseño grafico y produccion audiovisual #web #react #javaScript #next</p>
+            <br />
+            <Redsocial/>
         </PressHeader>
         <HrLinea/>
         <PressInfo>

@@ -7,30 +7,35 @@ import Menu from '../components/Menu';
 //paginas
 import Home from '../pages/Home'
 import About from '../pages/About'
-import Articles from '../pages/Articles'
+import Proyect from '../pages/Proyectos'
 import Productos from '../pages/Productos'
+import Blogs from '../pages/Blogs';
+import Footer from '../containers/Footer';
+import Error404 from '../pages/Error404';
+import Diseños from '../pages/Diseños'
 
 //blogs
 import MetodologiaBasicaJs from '../Blogs/MetodologiaBasicaJs'
-import Footer from '../pages/Footer';
-import Error404 from '../pages/Error404';
+
 
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Menu/>
-        <Routes>
-          <Route exact path='/' element={<Home/>}/>
-          <Route exact path='/about' element={<About/>}/>
-          <Route exact path='/articles' element={<Articles/>}/>
-          <Route exact path='/Productos' element={<Productos/>}/>
-          <Route exact path='/metodologia-basica-js' element={<MetodologiaBasicaJs/>}/>
-          <Route exact path='*' element={<Error404/>}/>
-        </Routes>
-        <Footer/>
-      </BrowserRouter>
+          <Menu/>
+          <Routes>
+            <Route exact path='/' element={<Home/>}/>
+            <Route exact path='/about' element={<About/>}/>
+            <Route exact path='/proyect' element={<Proyect/>}/>
+            <Route exact path='/Productos' element={<Productos/>}/>
+            <Route exact path='/Blogs' element={<Blogs/>}/>
+            <Route exact path='/Dis' element={<Diseños/>}/>
+            <Route exact path='/metodologia-basica-js' element={<MetodologiaBasicaJs/>}/>
+            <Route exact path='*' element={<Error404/>}/>
+          </Routes>
+          <Footer/>
+        </BrowserRouter>
     </div>
   );
 }

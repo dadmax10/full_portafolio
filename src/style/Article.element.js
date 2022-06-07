@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const TitlePostAll = styled.h1`
     font-size :3em;
     margin:1em 0px 0px 1em ;
-    color:#fff;
+    color:#08fdd8;
 `;
 
 export const HrTitlePost = styled.hr`
@@ -18,5 +18,5 @@ export const ContainerPostAll = styled.div`
     flex-direction : column;
     justify-content:center;
     margin:0.8em 0px;
-    padding:1em;
+    padding:2em;
 `
