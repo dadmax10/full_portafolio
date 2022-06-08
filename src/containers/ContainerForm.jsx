@@ -6,8 +6,8 @@ function ContainerForm() {
   return (
     <>
         <ContainerFormInfo>
-            <TitleForm>Unete a la Comunidad</TitleForm>
-            <DescForm>Creemos una comunidad cada ves mas grande para aprender entre todos</DescForm>
+            <TitleForm>Únete a la Comunidad</TitleForm>
+            <DescForm>Creemos una comunidad cada ves mas grande para aprender entre todos juntos</DescForm>
             {Button("#", "Canal de Telegram")}
         </ContainerFormInfo>
     </>

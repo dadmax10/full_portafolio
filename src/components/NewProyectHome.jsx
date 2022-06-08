@@ -1,17 +1,32 @@
 import React from 'react'
 import { ContainerProyectItems, ImgProyect, ModalProyect, ModalVisible, ProyectCont } from "../style/NewProyect.element"
+import andres from '../assets/image/andres.jpg'
 
 
-import useGetNewProyect from '../hook/useGetNewProyect.js'
+const proyectInfo = [
+  {
+    id: 1,
+    img: andres,
+    link: "#"
+  },
+  {
+    id: 2,
+    img: andres,
+    link: "#"
+  },
+  {
+    id: 3,
+    img: andres,
+    link: "#"
+  },
+];
 
-
-function NewProyect() {
-  const arrProyect = useGetNewProyect();
+function NewProyectHome() {
   return (
     <>
       <ContainerProyectItems>
         {
-          arrProyect.map(itemProyect => (
+          proyectInfo.map(itemProyect => (
             <ProyectCont key={itemProyect.id}>
               <ImgProyect src={itemProyect.img} />
               <ModalProyect>
@@ -27,4 +42,4 @@ function NewProyect() {
   )
 }
 
-export default NewProyect
+export default NewProyectHome
