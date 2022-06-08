@@ -27,3 +27,20 @@ export const ContainerBlogsInfo = styled.div`
         width : 100%;
     }
 `
+
+export const LinkCategoriaBlogs = styled.h3`
+    text-align:center;
+    font-size:1.6em;
+    margin:1em 0px;
+    color:#08fdd8;
+    cursor:pointer;
+    &:hover{
+        text-decoration :underline;
+    }
+`
+
+export const TitleCategoriaBlogs = styled.h1`
+    text-align:center;
+    font-size:3em;
+    
+`

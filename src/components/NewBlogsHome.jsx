@@ -17,7 +17,6 @@ function NewBlogsHome() {
                         <ImgBlogs src={itemsBlogs.imgBlogs} />
                     </ContentDataBlog>
                 ))}
-            
         </>
     )
 }

@@ -25,3 +25,12 @@ export const TextProyectBlogs = styled.h2`
     z-index:-1;
     
 `
+export const LinkAllBlogs = styled.a`
+    text-decoration : none;
+    color:#08fdd8;
+    font-size:1.2em;
+    opacity :1;
+    &:hover{
+        opacity:0.6;
+    }
+`
