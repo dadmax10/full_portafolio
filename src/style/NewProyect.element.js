@@ -42,7 +42,7 @@ export const ModalProyect = styled.div`
     height:100%;
     background: transparent;
     color:#111;
-    transition :all 1s cubic-bezier(.17,.67,.91,.17);
+    transition :all 500ms cubic-bezier(.17,.67,.91,.17);
     &:hover{
         opacity :1;
     }

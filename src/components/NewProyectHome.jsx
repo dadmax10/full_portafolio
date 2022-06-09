@@ -1,23 +1,28 @@
 import React from 'react'
 import { ContainerProyectItems, ImgProyect, ModalProyect, ModalVisible, ProyectCont } from "../style/NewProyect.element"
-import andres from '../assets/image/andres.jpg'
+
+import img_rfa from "../assets/image/imgProyectos/rfa-mp3.png"
+import img_toky from "../assets/image/imgProyectos/toky tienda.png"
+import img_Emisora from "../assets/image/imgProyectos/EmisoraWeb.png"
+
+
 
 
 const proyectInfo = [
   {
     id: 1,
-    img: andres,
-    link: "#"
+    img: img_rfa,
+    link: "https://reproductor-mp3.netlify.app"
   },
   {
     id: 2,
-    img: andres,
-    link: "#"
+    img: img_toky,
+    link: "https://compra-carrito.netlify.app"
   },
   {
     id: 3,
-    img: andres,
-    link: "#"
+    img: img_Emisora,
+    link: "https://emisora-web.netlify.app"
   },
 ];
 

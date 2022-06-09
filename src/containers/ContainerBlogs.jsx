@@ -1,7 +1,7 @@
 import React from 'react'
 import NewBlogs from '../components/NewBlogs'
-import { ContainerNewBlogs, ContainerBlogsInfo, ContainerRegisterBlogs, LinkCategoriaBlogs, TitleCategoriaBlogs } from '../style/ContainerBlogs.element'
-import ContainerForm from '../containers/ContainerForm'
+import { ContainerNewBlogs, ContainerBlogsInfo, ContainerRegisterBlogs, TitleCategoriaBlogs } from '../style/ContainerBlogs.element'
+
 function ContainerBlogs() {
   return (
     <>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { LinkExt } from "../style/MetodologiaBasicaJs.element"
+// import { LinkExt } from "../style/MetodologiaBasicaJs.element"
 import GenericBlogs from '../hook/useBlogs'
 
 const FuncionesAdd = () =>{
@@ -10,8 +10,7 @@ const FuncionesAdd = () =>{
           tipo de los elementos de un array son variables.</p>
           <h3>CREACION DEL ARRAY</h3>
           
-// Marta 0
-// Sofia 1
+
         </>
     )
 }
