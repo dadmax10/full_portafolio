@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import { ContainerFormItems, InputForm, TitleForm } from '../style/Form.element'
+import { ContainerFormItems, DescForm, InputForm, InputFormButtom, TitleForm } from '../style/Form.element'
 
 // import appAndresTech from "../credenciales";
 import {getFirestore, collection,addDoc, getDocs, doc, deleteDoc, getDoc, setDoc} from "firebase/firestore"
@@ -37,10 +37,10 @@ function Form() {
         <>
             <ContainerFormItems onSubmit={handleSaveData}>
                 <TitleForm>Formulario</TitleForm>
+                <DescForm>Mantente siempre atento a los nuevos Blogs, Diseños y mas</DescForm>
                 <InputForm placeholder='Nombre Completo' name= "title" type="text" onChange={changeHandle} value={formData.title}/>
                 <InputForm placeholder='Email Completo'  name='email' type="email" onChange={changeHandle} value ={formData.email}/>
-                //TODO : cambiar el estilo del boton
-                <InputForm type="submit" value="Enviar"/>
+                <InputFormButtom type="submit" value="Enviar"/>
             </ContainerFormItems>
         </>
     )

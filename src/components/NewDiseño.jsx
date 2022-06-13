@@ -1,7 +1,9 @@
 import React from 'react'
 import { BgDiseño, ContainerDiseño, ContainerImgDiseño, ContainerTextDiseño, ImgDiseño, ParagraphDiseño, TitleDiseño } from  "../style/Diseño.element"
-import andres from "../assets/image/andres.jpg"
 import Button from '../components/Button'
+
+//imagenes de los blogs
+import restauranteBRS from "../assets/image/ImgDiseño/RestauranteBRS.png"
 
 const PlantillaDiseño = ({titleDiseño, paragraphDiseño, imgDiseño,linkDiseño="/"}) =>{
   return(
@@ -24,17 +26,12 @@ function NewDiseño() {
   return (
     <>
         <PlantillaDiseño
-          titleDiseño = "Diseño 1"
-          paragraphDiseño = "habia una ves una arbol se callo de un puente muy triste lloro y se murio"
-          imgDiseño = {andres}
-          linkDiseño="/"
+          titleDiseño = "BRS RESTAURANTE"
+          paragraphDiseño = "Diseño de un restaurante con menus exquisitos y platillos muy expeciales miralo aqui!!"
+          imgDiseño = {restauranteBRS}
+          linkDiseño="https://www.figma.com/file/XlGIOFC8Ma993ktNkZ7Va3/Restaurante-BRS?node-id=0%3A1"
         />
-        <PlantillaDiseño
-          titleDiseño = "Diseño 2"
-          paragraphDiseño = "habia una ves una arbol se callo de un puente muy triste lloro y se murio"
-          imgDiseño = {andres}
-          linkDiseño="/"
-        />
+        
     </>
   )
 }

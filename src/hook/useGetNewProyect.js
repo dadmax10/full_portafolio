@@ -21,6 +21,8 @@ const proyectInfo = [
       img: img_Emisora,
       link: "https://emisora-web.netlify.app"
     },
+    
+
   ];
 
 

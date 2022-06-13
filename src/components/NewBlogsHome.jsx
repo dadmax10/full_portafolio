@@ -6,10 +6,11 @@ import useGetNewBlogs from "../hook/useGetNewBlogs"
 
 function NewBlogsHome() {
     const arrBlogsNew = useGetNewBlogs();
+    const arrSlice = arrBlogsNew.slice(0,3)
     return (
         <>
             {
-                arrBlogsNew.map((itemsBlogs, idx) => (
+                arrSlice.map((itemsBlogs, idx) => (
                     <ContentDataBlog primary={itemsBlogs.color} key={idx}>
                         <TextCategoriaBlogs primary={itemsBlogs.color}>{itemsBlogs.categoria}</TextCategoriaBlogs>
                         <TextBlogs href={itemsBlogs.linkBlogs}>{itemsBlogs.title}</TextBlogs>

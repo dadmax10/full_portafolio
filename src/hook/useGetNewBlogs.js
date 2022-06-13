@@ -30,6 +30,15 @@ const newBlogsInfo = [
         color : "#37E2D5",
         linkBlogs : "#"
     },
+    {
+        id:"2",
+        categoria: "React",
+        title: "Blogs 1",
+        descripBlogs: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, animi?",
+        imgBlogs: andres,
+        color : "#37E2D5",
+        linkBlogs : "#"
+    },
   ]
 
   function useGetNewBlogs(){

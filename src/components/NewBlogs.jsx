@@ -1,13 +1,13 @@
 import React from 'react'
 import { ContentDataBlog, TextCategoriaBlogs, TextBlogs, DescBlogs, ImgBlogs } from '../style/NewBlogs.element'
 
-import useGetBlogs from '../hook/useGetBlogs';
+import useGetNewBlogs from '../hook/useGetNewBlogs';
 
 //TODO : implementar los blogs ya creados
 
 function NewBlogs() {
 
-  const arrBlogs =  useGetBlogs();
+  const arrBlogs =  useGetNewBlogs();
   
   return (
     <>

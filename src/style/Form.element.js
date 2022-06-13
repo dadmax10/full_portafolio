@@ -17,6 +17,12 @@ export const TitleForm = styled.h2`
     text-align:center;
     margin:10px 0px;
 `
+export const DescForm = styled.p`
+    font-size :1.2;
+    text-align:center;
+    color:#fff;
+    margin:10px 0px;
+`
 
 export const InputForm = styled.input`
     width:50%;
@@ -27,4 +33,21 @@ export const InputForm = styled.input`
     border-bottom:2px solid #08fdd8;
     color:#fff;
     margin:5px 0px;
+`
+export const InputFormButtom = styled.input`
+    width:25%;
+    padding:1em;
+    background:#222;
+    border:none;
+    outline:none;
+    border:2px solid #08fdd8;
+    color:#fff;
+    margin:5px 0px;
+    transition:500ms ease-in;
+    cursor:pointer;
+    &:hover{
+        background:#08fdd8;
+        color:#000;
+        transition:500ms ease-in;
+    }
 `

@@ -1,5 +1,5 @@
 import React from 'react'
-import NewProyectHome from '../components/NewProyect'
+import NewProyectHome from '../components/NewProyectHome'
 import {ContainerNewProyect, TextProyect, DescProyect, LinkProyectText, TextProyectOculto} from "../style/ContainerProyecto.element"
 import Button from '../components/Button'
 
