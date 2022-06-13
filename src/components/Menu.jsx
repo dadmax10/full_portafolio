@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 
 //import react-icons
-import {FaHeart,FaHome,FaBars,FaTimes,FaBloggerB} from "react-icons/fa"
+import {FaHeart,FaHome,FaBars,FaTimes,FaBloggerB,FaPenFancy} from "react-icons/fa"
 import {MdOutlineArticle,MdProductionQuantityLimits} from "react-icons/md"
 
 
@@ -43,7 +43,7 @@ function Menu() {
                     <MenuItemLink href="/Blogs" ><FaBloggerB/>Blogs</MenuItemLink>
                   </MenuItem>
                   <MenuItem onClick={handleModal}>
-                    <MenuItemLink href="/Dis" ><FaBloggerB/>Diseño</MenuItemLink>
+                    <MenuItemLink href="/Dis" ><FaPenFancy/>Diseño</MenuItemLink>
                   </MenuItem>
                   <MenuItem onClick={handleModal}>
                     <MenuItemLink href="/Productos" ><MdProductionQuantityLimits/>Productos</MenuItemLink>

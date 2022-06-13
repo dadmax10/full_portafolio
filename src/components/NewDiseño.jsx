@@ -19,6 +19,7 @@ const PlantillaDiseño = ({titleDiseño, paragraphDiseño, imgDiseño,linkDiseñ
   )
 }
 
+//TODO : implementar los diseños con sus links
 function NewDiseño() {
   return (
     <>

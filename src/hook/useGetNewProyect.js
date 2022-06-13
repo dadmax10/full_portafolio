@@ -4,7 +4,7 @@ import img_rfa from "../assets/image/imgProyectos/rfa-mp3.png"
 import img_toky from "../assets/image/imgProyectos/toky tienda.png"
 import img_Emisora from "../assets/image/imgProyectos/EmisoraWeb.png"
 
-
+//TODO : cambiar el array por la base de datos
 const proyectInfo = [
     {
       id: 1,

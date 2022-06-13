@@ -39,6 +39,7 @@ function Form() {
                 <TitleForm>Formulario</TitleForm>
                 <InputForm placeholder='Nombre Completo' name= "title" type="text" onChange={changeHandle} value={formData.title}/>
                 <InputForm placeholder='Email Completo'  name='email' type="email" onChange={changeHandle} value ={formData.email}/>
+                //TODO : cambiar el estilo del boton
                 <InputForm type="submit" value="Enviar"/>
             </ContainerFormItems>
         </>

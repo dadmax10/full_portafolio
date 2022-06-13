@@ -6,7 +6,7 @@ import img_toky from "../assets/image/imgProyectos/toky tienda.png"
 import img_Emisora from "../assets/image/imgProyectos/EmisoraWeb.png"
 
 
-
+//TODO : cambiar el array por la base de datos y juntarlos con la del proyecto
 
 const proyectInfo = [
   {

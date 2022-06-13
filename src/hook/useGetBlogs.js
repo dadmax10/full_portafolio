@@ -1,6 +1,8 @@
 import React,{useState} from 'react'
 import andres from "../assets/image/andres.jpg"
 
+
+// TODO : Cambiar el array por la base de datos en los blogs
 export const blogsInfo = [
     {
         id:"0",

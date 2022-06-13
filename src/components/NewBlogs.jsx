@@ -3,6 +3,7 @@ import { ContentDataBlog, TextCategoriaBlogs, TextBlogs, DescBlogs, ImgBlogs } f
 
 import useGetBlogs from '../hook/useGetBlogs';
 
+//TODO : implementar los blogs ya creados
 
 function NewBlogs() {
 
