@@ -15,7 +15,7 @@ import Error404 from '../pages/Error404';
 import Diseños from '../pages/Diseños'
 
 //blogs
-import MetodologiaBasicaJs from '../Blogs/MetodologiaBasicaJs'
+import ArrayMetodos from '../Blogs/ArrayMetodos'
 
 
 
@@ -31,7 +31,8 @@ function App() {
             <Route exact path='/Productos' element={<Productos/>}/>
             <Route exact path='/Blogs' element={<Blogs/>}/>
             <Route exact path='/Dis' element={<Diseños/>}/>
-            <Route exact path='/metodologia-basica-js' element={<MetodologiaBasicaJs/>}/>
+            {/* //blogs */}
+            <Route exact path='//array_y_metodos' element={<ArrayMetodos/>}/>
             <Route exact path='*' element={<Error404/>}/>
           </Routes>
           <Footer/>
