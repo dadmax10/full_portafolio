@@ -23,7 +23,7 @@ function Menu() {
               <NavbarWrapper>
               <LinkUrl href="/">
                 <IconLogo>
-                    <FaHeart size={"2em"}/> Andres Narvaez
+                    <FaHeart size={"2em"}/> AndresTech
                 </IconLogo>
               </LinkUrl>
                 <IconLogoMobile onClick={handleModal} >

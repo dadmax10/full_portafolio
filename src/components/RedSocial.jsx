@@ -26,7 +26,7 @@ function Redsocial() {
                     <img className='img-red-social' src={instagram} alt="red-instagram" />
                 </div>
                 <div className="content-info-red">
-                    <a href="https://www.instagram.com/felip.tech/?hl=es-la">Instagram</a>
+                    <a href="https://www.instagram.com/andres_tech3/?hl=es-la">Instagram</a>
                     <b>@ANDRESTECH</b>
                 </div>
             </div>

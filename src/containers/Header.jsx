@@ -5,8 +5,8 @@ import Button from "../components/Button"
 
 
 //import img
-import profile from "../assets/image/andres.jpg"
-import profile2 from "../assets/image/andres2.jpg"
+import profile from "../assets/image/AndresTech.png"
+import profile2 from "../assets/image/andres.jpg"
 
 
 

@@ -2,7 +2,7 @@ import React from 'react'
 import {ContentInfoAbout, HrAbout, TextPort,PressHeader,PressInfo, ImgHeader, HrLinea} from '../style/About.element'
 import Redsocial from "../components/RedSocial"
 // importando imagenes
-import imgPress from "../assets/image/andres.jpg"
+import imgPress from "../assets/image/AndresTech.png"
 
 function About() {
   return (
