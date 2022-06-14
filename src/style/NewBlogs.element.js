@@ -37,5 +37,6 @@ export const DescBlogs = styled.p`
 
 export const ImgBlogs = styled.img`
     width:100%;
+    height:auto;
 `
 

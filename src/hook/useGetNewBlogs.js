@@ -10,7 +10,7 @@ const newBlogsInfo = [
         title: "ARRAY Y SUS METODOS",
         descripBlogs: `Los arrays son objetos similares a una lista cuyo prototipo proporciona métodos
         para efectuar operaciones de recorrido y de mutación...`,
-        imgBlogs: {programacion},
+        imgBlogs: programacion,
         color : "#FF8D29",
         linkBlogs : "/array_y_metodos"
     },
