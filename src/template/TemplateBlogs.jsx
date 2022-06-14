@@ -3,6 +3,8 @@ import { CategoriaBlogs, ContainerInfoBlogs, ContainerSection, ContainerTemplate
 
 import useGetNewBlogs from "../hook/useGetNewBlogs.js"
 
+// crea un interpretador de blogs global
+
 function TemplateBlogs({ titleBlogs, categoriaBlogs, Children }) {
     const arrBlogs = useGetNewBlogs();
     const arrBlogsNew = arrBlogs.slice(0,3)
