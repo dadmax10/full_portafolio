@@ -46,7 +46,7 @@ function Form() {
                 <TitleForm>Formulario</TitleForm>
                 <DescForm>Mantente siempre atento a los nuevos Blogs, Diseños y mas</DescForm>
                 <InputForm placeholder='Nombre Completo' name= "title" type="text" onChange={changeHandle} value={formData.title}/>
-                <InputForm placeholder='Email Completo'  name='email' type="email" onChange={changeHandle} value ={formData.email}/>
+                <InputForm placeholder='Email Valido'  name='email' type="email" onChange={changeHandle} value ={formData.email}/>
                 <InputFormButtom type="submit" value="Enviar"/>
             </ContainerFormItems>
         </>
