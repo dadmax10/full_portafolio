@@ -51,3 +51,12 @@ export const InputFormButtom = styled.input`
         transition:500ms ease-in;
     }
 `
+
+export const ValidateForm = styled.div`
+    width: 25%;
+    height:25vh;
+    margin:10px 0px;
+    background:${props => props.background};
+    padding:1em;
+    font-size :1.3em;
+`

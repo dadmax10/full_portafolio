@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import { ContainerFormItems, DescForm, InputForm, InputFormButtom, TitleForm } from '../style/Form.element'
 
 // import appAndresTech from "../credenciales";
-import {getFirestore, collection,addDoc, getDocs, doc, deleteDoc, getDoc, setDoc} from "firebase/firestore"
+import {getFirestore, collection,addDoc } from "firebase/firestore"
 import app from "../lib/firebase"
 
 const db = getFirestore(app);
@@ -13,6 +13,7 @@ function Form() {
         title : "",
         email : ""
     }
+
     const [formData, setFormData] = useState(valorInicial);
 
     const changeHandle = e => {
@@ -23,15 +24,21 @@ function Form() {
     const handleSaveData = async (e) =>{
         e.preventDefault();
         try {
-            await addDoc(collection(db,"Usuarios"), {
-                ...formData
-            })
+            if(formData.title !== "" && formData.email !== ""){
+                await addDoc(collection(db,"Usuarios"), {
+                    ...formData
+                })
+                alert ("Formulario enviado correctamente")
+            }else{
+                alert ("Rellene los formularios")
+            }
         } catch (error) {
             console.log("conexion fallida con la BD", error)
         }
         setFormData({...valorInicial})
     }
 
+    
     
     return (
         <>
