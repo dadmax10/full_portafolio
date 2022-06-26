@@ -45,7 +45,7 @@ export const TitlePost = styled.h3`
 export const LinkPost = styled.a`
     text-decoration : none;
     padding:0.7em;
-    border : 1px solid #29d;
+    border : 1px solid #08fdd8;
     color:#fff;
     cursor:pointer;
     display:block;
@@ -54,7 +54,7 @@ export const LinkPost = styled.a`
     margin:4em 0px;
     text-align:center;
     &:hover{
-        background:#29d;
+        background:#08fdd8;
         color:#fff;
         transition:all 500ms ease-in;
     }
